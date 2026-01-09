@@ -6,4 +6,5 @@ def call(String docker_image) {
                   docker --version
                   docker build -t ${docker_image} .
                 """
+                echo "the image is built successfully...📦📦📦"
 }
