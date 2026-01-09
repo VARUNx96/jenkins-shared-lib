@@ -1,8 +1,10 @@
 def call() {
-                echo "this is deploying the code "
+                echo "this is deploying the code....⚠️⚠️⚠️"
                 sh """
                  export PATH=/usr/local/bin:/opt/homebrew/bin:\$PATH
                  echo "PATH is: \$PATH"
                  docker compose up -d
                 """
+                echo "the code is deployed successfully.....🔥🔥🔥"
+  
 }
